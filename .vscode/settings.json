@@ -24,6 +24,7 @@
         "forward_list": "cpp",
         "set": "cpp",
         "fstream": "cpp",
-        "xlocmes": "cpp"
+        "xlocmes": "cpp",
+        "string": "cpp"
     }
 }
