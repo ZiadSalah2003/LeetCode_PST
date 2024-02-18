@@ -26,6 +26,8 @@
         "fstream": "cpp",
         "xlocmes": "cpp",
         "string": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "codecvt": "cpp",
+        "xlocale": "cpp"
     }
 }
