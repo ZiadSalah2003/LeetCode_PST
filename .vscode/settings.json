@@ -28,6 +28,7 @@
         "string": "cpp",
         "map": "cpp",
         "codecvt": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "iostream": "cpp"
     }
 }
