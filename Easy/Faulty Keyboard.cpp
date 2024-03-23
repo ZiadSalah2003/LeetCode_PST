@@ -19,7 +19,7 @@ public:
     string finalString(string s) {
         deque<char> dq;
         bool r = false;
-        for (char c : s) {
+        for (char c : s) { 
             if (c == 'i') {
                reverse(all(dq));
         }
