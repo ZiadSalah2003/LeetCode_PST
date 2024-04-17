@@ -1,0 +1,27 @@
+// Problem-Link : https://leetcode.com/problems/concatenation-of-array/description/
+// Problem-ID : 1929
+// Problem Name: Concatenation of Array
+// Verdict: AC
+#include <bits/stdc++.h>
+#define ll long long
+#define endl "\n"
+#define sz(x) (int)(x).size()
+#define Endl "\n"
+#define all(v) v.begin(),v.end()
+#define GG  ios_base::sync_with_stdio(false);cin.tie(nullptr);cout.tie(nullptr);
+using namespace std;
+const ll N = 1e3 + 7, OO = 0x3f3f3f3f;
+const ll M = 2e18 + 10;
+const ll MOD = 1e9;
+const double EPS = 1e-7;
+class Solution {
+public:
+    vector<int> getConcatenation(vector<int>& nums) {
+       vector<int> ans (nums.size()*2);
+        for(int i=0;i<nums.size();i++){
+            ans[i]=nums[i];
+            ans[i+nums.size()]=nums[i];
+        }
+        return ans;  
+    }
+};
